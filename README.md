@@ -17,9 +17,9 @@ In fact, I made a universal loader [UdrakoLoader](https://github.com/DestroyerDa
 
 This tool is the final result of my research. Basically, I took a DLL made in .NET, exported a specific function (Equivalent to C++'s DLLMain() / entrypoint) and then I packed it with a stub made in C, finally I compiled the stub generating the new DLL that was already exported.
 
-After these Steps, You can Inject your DLL with any Injector. 😎
+After these steps, you can inject your DLL with any injector. 😎
 
-## How to use ?
+## How to use?
 
 First we need our DLL made in .NET, then I will put the code of the DLL that we will use:
 
@@ -62,7 +62,7 @@ End Namespace
 
 ### We already have our DLL, now we will follow these steps:​
 
-- We will open the Tool and Select the DLL (The Methods will be Automatically Loaded)
+- We will open the tool and select the DLL (The Methods will be Automatically Loaded)
 - We select the Method that will work as the EntryPoint of our DLL.
 - We select the Target Architecture to compile for. Usually it is I386
 - Press the "Convet To Unmanaged" Button.
@@ -96,7 +96,7 @@ End Namespace
 
 # Download
 
-Download Pre Releases made for games: [UnmanagedDotNet](https://github.com/DestroyerDarkNess/Unmanaged.Net/releases/download/v1.0/Unmanaged.Net.7z)
+Download Pre-Releases made for games: [UnmanagedDotNet](https://github.com/DestroyerDarkNess/Unmanaged.Net/releases/download/v1.0/Unmanaged.Net.7z)
 
 
 [PM]:https://www.paypal.me/SalvadorKrilewski "PayPal"
