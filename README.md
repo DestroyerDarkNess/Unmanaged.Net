@@ -21,7 +21,7 @@ After these steps, you can inject your DLL with any injector. 😎
 
 ## How to use?
 
-First we need our DLL made in .NET, then I will put the code of the DLL that we will use:
+First we need our DLL made in .NET, the code of the DLL that we will use:
 
 ```c#
 using System;
@@ -60,14 +60,14 @@ Namespace TestLibrary
 End Namespace
 ```
 
-### We already have our DLL, now we will follow these steps:​
+### Once you have the DLL, follow these steps:​
 
-- We will open the tool and select the DLL (The Methods will be Automatically Loaded)
-- We select the Method that will work as the EntryPoint of our DLL.
-- We select the Target Architecture to compile for. Usually it is I386
+- Open the tool and select the DLL (The methods will be automatically loaded)
+- Select the method that will work as the EntryPoint of our DLL.
+- Select the Target Architecture to compile for. Usually it is I386
 - Press the "Convet To Unmanaged" Button.
-- If everything finished Correctly, in the same path of your DLL, there will be another DLL that will have the name of "xxxExported.dll"
-- That is your Final DLL, Inject it in any Process!
+- If everything finished correctly, in the same path of your DLL, there will be another DLL that will have the name of "xxxExported.dll"
+- That is your final DLL, Inject it in any process!
 
 <p align="center">
   <img src="https://i.ibb.co/Lzw3tyj/Previewdll.png" />
@@ -75,11 +75,10 @@ End Namespace
 
 ### Notes
 
-- Your EntryPoint Method of your .NET DLL must be Public and Accessible to everyone.
+- Your entrypoint method of your .NET DLL must be public and accessible to everyone.
+- This tool is in its first stable version, there may be errors.
 
 ![Note1](https://i.ibb.co/8s97wgv/Sin-t-tulo.png)
-
-- The Tool is in its first stable version, there may be errors.
 
 ## Injecting DLL (Final Test)
 
