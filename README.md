@@ -5,17 +5,17 @@
 <img align="left" width="110" height="140" src="https://i.ibb.co/cwNFYJL/icons8-cuttlefish-builds-content-managed-websites-and-mobile-apps-96.png">
 
 ## Introduction
-It allows you to efficiently convert a DLL (.Net) so that it can be easily injected into a process, as you would a native DLL.
+Unmanaged.Net allows you to efficiently convert a DLL (.Net) so it can be easily injected into a process, as you would with a native DLL.
 
-In my head the idea of injecting a DLL made in .NET (C# / VB) into a Process as you would do with a Native DLL (C++) has always been around.
-In fact I made a Universal Loader [UdrakoLoader](https://github.com/DestroyerDarkNess/Udrakoloader)  , But not completely satisfied, that's why I created this tool.
+In my head the idea of injecting a DLL made in .NET (C# / VB) into a process as you would do with a Native DLL (C++) has always been around.
+In fact, I made a universal loader [UdrakoLoader](https://github.com/DestroyerDarkNess/Udrakoloader), But I was not completely satisfied and that's why I created this tool.
 
  [![Doate Image](https://raw.githubusercontent.com/poucotm/Links/master/image/PayPal/donate-paypal.png)][PM] If you like this project, you can consider making a donation. Help us continue to improve the tool.
 
 
 ## What is Unmanaged.NET?
 
-This Tool is the Final Result of my Research, Basically I take a DLL made in NET, I Export a Specific Function (This function will be the Equivalent to C++'s DLLMain(), the EntryPoint of the DLL) and then I pack it with a Stub made in C , I compile the Stub Generating the New DLL already Exported.
+This tool is the final result of my research. Basically, I took a DLL made in .NET, exported a specific function (Equivalent to C++'s DLLMain() / entrypoint) and then I packed it with a stub made in C, finally I compiled the stub generating the new DLL that was already exported.
 
 After these Steps, You can Inject your DLL with any Injector. 😎
 
