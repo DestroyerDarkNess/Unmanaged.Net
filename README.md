@@ -70,22 +70,22 @@ End Namespace
 - That is your final DLL, Inject it in any process!
 
 <p align="center">
-  <img src="https://i.ibb.co/Lzw3tyj/Previewdll.png" />
+  <img src="https://github.com/DestroyerDarkNess/Unmanaged.Net/blob/main/Previewdll.png?raw=true" />
 </p>
 
 ### Notes
 
-- Your entrypoint method of your .NET DLL must be public and accessible to everyone.
 - This tool is in its first stable version, there may be errors.
+- Your entrypoint method of your .NET DLL must be public and accessible to everyone.
 
-![Note1](https://i.ibb.co/8s97wgv/Sin-t-tulo.png)
+![Note1](https://github.com/DestroyerDarkNess/Unmanaged.Net/blob/main/Sin-t-tulo.png?raw=true)
 
 ## Injecting DLL (Final Test)
 
 <p align="center">
-  <img src="https://i.ibb.co/QPn8V9R/Test-Previewsa1.png" />
-  <img src="https://i.ibb.co/r3npNZp/Test-Preview1.png" />
-  <img src="https://i.ibb.co/brw0nCM/Test-Preview2.png" />
+  <img src="https://github.com/DestroyerDarkNess/Unmanaged.Net/blob/main/Test-Previewsa1.png?raw=true" />
+  <img src="https://github.com/DestroyerDarkNess/Unmanaged.Net/blob/main/Test-Preview1.png?raw=true" />
+  <img src="https://github.com/DestroyerDarkNess/Unmanaged.Net/blob/main/Test-Preview2.png?raw=true" />
 </p>
 
 ## Contributors
