@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Unmanaged.Net Converter
+</name>
+</assembly>
+<members>
+<member name="T:Unmanaged.Net_Converter.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Unmanaged.Net_Converter.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Unmanaged.Net_Converter.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Unmanaged.Net_Converter.My.Resources.Resources.BaseLinker">
+<summary>
+  Looks up a localized string similar to #include &lt;stdio.h&gt;
+#include &lt;Windows.h&gt;
+
+typedef void(*DllMainEx)();
+
+unsigned char rawData[$DataLength$] = {
+	$DataByte$
+};
+
+
+int main()
+{
+
+	char *Pathvar = getenv(&quot;TEMP&quot;);
+	char *DLLName = &quot;$DllName$&quot;;
+	char *EntryPoint = &quot;$DllMain$&quot;;
+
+	if (Pathvar != &quot;&quot;) {
+       DLLName = strcat(Pathvar, DLLName);
+	}
+
+	remove(DLLName);
+
+	printf(&quot;Writing dll\n&quot;);
+
+	FILE *fp = fopen(DLLName, &quot;wb&quot;);
+   
+	if (fp) {
+		fwrite(rawData, 1, sizeof(rawData), fp);
+		fclose(fp);
+	}
+
+	printf(&quot;Loading  [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="M:Unmanaged.Net_Converter.Core.Utils.GetFileVersion(System.String,System.Text.StringBuilder,System.Int32,System.Int32@)">
+ <summary>
+ Gets the common language runtime (CLR) version information of the specified file, using the specified buffer.
+ </summary>
+ <param name="filepath">Indicates the filepath of the file to be examined.</param>
+ <param name="buffer">Indicates the buffer allocated for the version information that is returned.</param>
+ <param name="buflen">Indicates the size, in wide characters, of the buffer.</param>
+ <param name="written">Indicates the size, in bytes, of the returned buffer.</param>
+ <returns>System.Int32.</returns>
+</member>
+<member name="M:Unmanaged.Net_Converter.Core.Utils.IsNetAssembly(System.String)">
+ <summary>
+ Determines whether an exe/dll file is an .Net assembly.
+ </summary>
+ <param name="File">Indicates the exe/dll file to check.</param>
+ <returns><c>true</c> if file is an .Net assembly; otherwise, <c>false</c>.</returns>
+</member>
+</members>
+</doc>
